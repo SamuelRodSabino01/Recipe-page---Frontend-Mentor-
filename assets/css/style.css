@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+h1, h3{
+    font-family: 'Young Serif';
+}
+h3{
+    color: hsl(14, 45%, 36%);
+}
+h5, span, p{
+    font-family: 'Outfit';
+}
+li{
+    margin-bottom: 2%;
+}
+li::marker{
+    color: hsl(14, 45%, 36%);
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.principal{
+    background-color: #fff;
+    border-radius: 15px;
+}
+.img-omelete img{
+    width: 100%;
+    border-radius: 15px;
+}
+.linha-divisao{
+    border-bottom: 2px solid hsl(30, 54%, 90%);
+}
+.tempo-preparacao{
+    padding: 5%;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+}
+.tempo-preparacao li::marker{
+    color: hsl(332, 51%, 32%);
+}
+.instrucao ul{
+    list-style-type: decimal;
+}
+.info-nutri p{
+    border-bottom: 2px solid hsl(30, 54%, 90%);
+}
+.lado-b{
+    color: hsl(14, 45%, 36%);
+}
+.attribution{
+    display: flex;
+    justify-content: space-between;
+}
+/* rodapé */
